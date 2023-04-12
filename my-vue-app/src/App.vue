@@ -2,14 +2,14 @@
   export default{
     data(){
       return{
-
+        saluto: "Hello!"
       }
     }
   }
 </script>
 
 <template>
- <h1>Hello World</h1>
+ <h1>{{saluto}}</h1>
 </template>
 
 <style>
